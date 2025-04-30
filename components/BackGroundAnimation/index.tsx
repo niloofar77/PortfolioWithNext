@@ -6,7 +6,7 @@ import { loadSlim } from "tsparticles-slim";
 
 
 export default function BackGroundAnimation() {
-    const particlesInit = useCallback(async (engine) => {
+    const particlesInit = useCallback(async (engine:any) => {
         await loadSlim(engine);
       }, []);
     

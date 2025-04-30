@@ -8,12 +8,14 @@ export default function Hero() {
       
         <div className="space-y-6">
           <h1 className="text-2xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
             Hi, I'm Niloofar Mousavi.
           </h1>
           <p className="text-lg md:text-xl text-white">
             Software Engineer
           </p>
           <p className="text-white text-l">
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
           I'm a Software Engineer and Frontend Developer with a passion for crafting high-performance web applications and intuitive user experiences. Combining robust coding skills with UI/UX design principles, I build seamless digital solutions that are both technically sound and visually engaging. My expertise in modern frameworks like React and Next.js, paired with a keen eye for design, allows me to bridge the gap between functionality and aesthetics—delivering products that users love to interact with."
           </p>
           <div className="flex gap-4 pt-4">

@@ -19,8 +19,9 @@ export default function Education() {
         href="#!"
         className="text-sm text-primary transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
         > 2020-2024</a>
-      
+    
       <p className="mb-4 mt-2 text-white">
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
       I have a Bachelor's degree in Computer Engineering from Shahid Beheshti University, which is one of the top universities in Iran.
       
       </p>
@@ -42,6 +43,7 @@ export default function Education() {
         >2022-2024</a>
     
       <p className="mb-4 mt-2 text-white">
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
       I have a Masters's degree in Computer Engineering from Alzahra University, which is one of the top universities in Iran.
       </p>
  

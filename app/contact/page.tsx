@@ -8,15 +8,16 @@ export default function Contact() {
     <div className="min-h-screen bg-zinc-900 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Contact Form Section */}
+      
           <div className="space-y-8">
             <div className="space-y-4">
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
               <h1 className="text-white text-3xl sm:text-4xl font-bold">Let's get in touch!</h1>
               <h2 className="text-zinc-300 text-lg">
                 Or reach out manually to sn.mousavi77@gmail.com
               </h2>
             </div>
-            {/* "space-y-6" */}
+        
             <form className="space-y-6">
               <div className="space-y-2">
                 <Label className="text-white" htmlFor="fullName">Full Name</Label>
@@ -57,7 +58,7 @@ export default function Contact() {
             </form>
           </div>
           
-          {/* Image Section */}
+      
           <div className="hidden lg:block">
             <div className="relative h-full min-h-[500px] rounded-lg overflow-hidden">
               <Image

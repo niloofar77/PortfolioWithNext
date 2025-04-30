@@ -18,7 +18,7 @@ const onUnAuthorize = async (error: AxiosError): Promise<AxiosResponse> => {
             {refreshToken},
             {
                 headers: {
-                    Authorization: token
+                    Authorization: token ? `Bearer ${token.value}` : undefined
                 }
             }
         );
